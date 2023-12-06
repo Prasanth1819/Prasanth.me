@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration:none;
+
+   
+
+}
+
+.header{
+    width: 93%;
+    height: 75px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow:0 0 8px grey;
+}
+
+.left-head-container h2{
+    font-size: 30px;
+}
+
+.Right-head-container{
+    display: flex;
+    justify-content:space-between;
+    width:500px;
+
+}
+.Right-head-container a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.home-section{
+
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    overflow: hidden;
+  
+}
+.left-home-section{
+
+    width: 800px;
+    height: 500px;
+    margin-top: 50px;
+    position: relative;
+
+  
+}
+
+.home-bio{
+    position: absolute;
+    top: 50px;
+    
+
+}
+
+.home-bio h3{
+
+    margin: 0px;
+    font-size: 24px;
+}
+.home-bio h2{
+    font-size: 30px;
+    color: red;
+}
+.home-bio{
+    font-size: 20px;
+    text-indent: 30px;
+}
+
+.right-home-section{ 
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 100px;
+}
+.right-home-section img{
+    width: 400px;
+    height:400px;
+    background: lightgreen;
+    border-radius: 50%;
+
+}
+
+.social-media{
+    position:absolute;
+    bottom: 120px;
+    width: 300px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly; 
+}
+.social-media a{
+
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.social-media a:hover{
+    box-shadow: 0px 2px 4px gray;
+} 
+.social-media a i{
+    font-size: 24px;
+    color: black;
+}
+.home-btn{
+    position: absolute;
+    bottom:25px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:30px;
+    padding-right:30px;
+    font-weight:bold;
+    border: 2px style black;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+    
+.home-btn :hover{
+    box-shadow: 0px 4px 8px grey;
+}
